@@ -1,0 +1,4 @@
+# Block access to .vue files
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} ^.*/\.vue
+RewriteRule ^(.*)$ - [R=404]

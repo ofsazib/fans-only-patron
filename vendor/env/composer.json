@@ -1,0 +1,54 @@
+{
+    "name": "env/env",
+    "description": "env package",
+    "keywords": [
+        "env",
+        "env"
+    ],
+    "homepage": "https://github.com/env/env",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "env",
+            "email": "example@example.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Env\\Env\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Env\\Env\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Env\\Env\\EnvServiceProvider"
+            ],
+            "aliases": {
+                "Env": "Env\\Env\\EnvFacade"
+            }
+        }
+    }
+}

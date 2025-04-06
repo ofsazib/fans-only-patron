@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'sendMessage' => 'Send',
+    'unlockPrice' => 'Unlock Price',
+    'freeMessage' => 'Free Attachments',
+    'paidMessage' => 'Paid Attachments',
+    'attachFiles' => 'Attach files to this message <small>(image/audio/video/zip)</small>',
+    'allowedExtensions' => 'Allowed attachment extensions are: ',
+    'attachImages' => 'Attach images (you can select multiple)',
+    'attachAudio' => 'Attach audio file',
+    'attachVideo' => 'Attach video file',
+    'attachZip' => 'Attach ZIP file',
+    'cancel' => 'Cancel',
+    'unlockLinkTitle' => 'Unlock this message for',
+    'unlockedMessageMail' => 'Your message was unlocked',
+    'unlockSuccess' => 'Unlock successful, you now have access to the message',
+    'unlocks' => 'Unlocks',
+    'unlockedMessageNotification' => ':tipper unlocked a message from you for :amount',
+    'unlockInfo' => 'You are unlocking a message for :amount',
+    'unlockProcessing' => 'Your payment is processing and once it is cleared the message will unlock',
+    'cardAuthorization' => 'Card Authorization',
+    'mercadoPagoError' => 'Error with your payment returned by MercadoPago/Card Issuer: ',
+    'tipPayment' => 'Tip to ',
+    'mercadoPagoMinSubscriptionAmount' => 'MercadoPago minimum subscription amount is $10 - https://www.mercadopago.com.mx/developers/en/guides/online-payments/subscriptions/previous-requirements',
+    'cardAuthDescription' => 'In order to create the subscription for :amount we need to first authorize your card',
+    'selectRecipient' => 'Select Recipient',
+];

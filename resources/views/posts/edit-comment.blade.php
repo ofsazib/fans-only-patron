@@ -1,0 +1,1 @@
+<input type="text" name="update-comment-{{ $comment->id }}" class="form-control update-comment-inp"  required="required" data-id="{{ $comment->id }}" value="{{ $comment->comment }}">
